@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj": {}
+    "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj": {}
   },
   "projects": {
-    "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj": {
+    "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj",
+        "projectUniqueName": "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj",
         "projectName": "HomeCareAI",
-        "projectPath": "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj",
+        "projectPath": "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI\\HomeCareAI.csproj",
         "packagesPath": "C:\\Users\\AGrennier\\.nuget\\packages\\",
-        "outputPath": "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\obj\\",
+        "outputPath": "C:\\LP-Release\\AI\\HomeCareAI\\HomeCareAI\\HomeCareAI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -87,6 +87,10 @@
               "target": "Package",
               "version": "[8.0.17, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -184,6 +188,10 @@
               "target": "Package",
               "version": "[8.0.17, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -257,6 +265,10 @@
               "target": "Package",
               "version": "[8.0.17, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
@@ -325,6 +337,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
