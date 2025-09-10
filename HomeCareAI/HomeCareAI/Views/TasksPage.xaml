@@ -4,6 +4,9 @@
              x:Class="HomeCareAI.Views.TasksPage"
              Title="TasksPage">
     <VerticalStackLayout>
+        <Button Text="Scan Label (Stub)"
+            Padding="12,8"
+            Clicked="OnScanStubClicked" />
         <Label 
             Text="Welcome to Task Page!"
             VerticalOptions="Center" 

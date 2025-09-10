@@ -6,4 +6,9 @@ public partial class TasksPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnScanStubClicked(object sender, EventArgs e)
+    {
+        await DisplayAlert("Camera Stub", "Pretend we just scanned a label.", "OK");
+    }
 }
