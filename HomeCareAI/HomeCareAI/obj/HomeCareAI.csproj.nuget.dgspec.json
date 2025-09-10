@@ -29,11 +29,7 @@
           "net8.0-windows10.0.19041.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://grm-sv-devops01/IPTI/_packaging/IPTI/nuget/v3/index.json": {},
-          "http://grm-sv-devops01/LP-Dev/_packaging/Infragistics/nuget/v3/index.json": {},
-          "http://grm-sv-devops01/LP-Dev/_packaging/LP-Dev/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +60,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-android34.0": {
@@ -85,12 +81,20 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.17, )",
+              "version": "[8.0.20, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_e_sqlite3": {
               "target": "Package",
               "version": "[3.0.2, )"
+            },
+            "Xamarin.Google.MLKit.TextRecognition": {
+              "target": "Package",
+              "version": "[116.0.1.5, )"
+            },
+            "Xamarin.Google.MLKit.Vision.Common": {
+              "target": "Package",
+              "version": "[117.3.0.16, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -111,55 +115,23 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Android.Ref.34",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.154, 34.0.154]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-arm",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.154, 34.0.154]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-arm64",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.154, 34.0.154]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-x64",
-              "version": "[34.0.145, 34.0.145]"
+              "version": "[34.0.154, 34.0.154]"
             },
             {
               "name": "Microsoft.Android.Runtime.34.android-x86",
-              "version": "[34.0.145, 34.0.145]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.205, 9.0.205]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-arm64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-x64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.android-x86",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
+              "version": "[34.0.154, 34.0.154]"
             }
           ],
           "frameworkReferences": {
@@ -170,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
@@ -190,7 +162,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.17, )",
+              "version": "[8.0.20, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_e_sqlite3": {
@@ -215,32 +187,12 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
               "name": "Microsoft.iOS.Ref.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8324, 18.0.8324]"
             },
             {
               "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.205, 9.0.205]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.iossimulator-x64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
+              "version": "[18.0.8324, 18.0.8324]"
             }
           ],
           "frameworkReferences": {
@@ -251,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
@@ -271,7 +223,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.17, )",
+              "version": "[8.0.20, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_e_sqlite3": {
@@ -297,32 +249,12 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8324, 18.0.8324]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.205, 9.0.205]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.maccatalyst-x64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
+              "version": "[18.0.8324, 18.0.8324]"
             }
           ],
           "frameworkReferences": {
@@ -333,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -372,28 +304,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.205, 9.0.205]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.19041.57, 10.0.19041.57]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -404,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
